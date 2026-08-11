@@ -1,0 +1,23 @@
+#welcome {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-container article {
+  width: 40%;
+}
+#field-notes span,
+#field-notes strong,
+#field-notes a {
+  outline: 2px dashed darkorange;
+}
+
+#field-notes div,
+#field-notes p {
+  outline: 2px solid seagreen;
+}
+
