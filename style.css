@@ -1,7 +1,13 @@
+
+/*Hero's title*/
+
 #welcome {
   text-align: center;
   padding: 3rem 1rem;
 }
+
+/*The Why join section*/
+
 .flex-container {
   display: flex;
   justify-content: space-around;
@@ -10,6 +16,9 @@
 .flex-container article {
   width: 40%;
 }
+
+/*field notes*/
+
 #field-notes span,
 #field-notes strong,
 #field-notes a {
@@ -20,4 +29,34 @@
 #field-notes p {
   outline: 2px solid seagreen;
 }
+
+/*input focus*/
+
+input:focus,
+textarea:focus {
+  outline: 3px solid darkgreen;
+  background-color: lightgreen;
+}
+
+/*email text input*/
+
+#member-email:valid {
+  border: 2px solid seagreen;
+}
+
+#member-email:invalid {
+  border: 4px dashed yellow;
+}
+
+/*Text shadow for hero title*/
+
+#welcome h1 {
+  text-shadow: 2px 2px 6px green;
+}
+#welcome a:hover {
+  background-color: black;
+  color: green;
+}
+
+
 
